@@ -303,7 +303,7 @@ details.block[open] summary{margin-bottom:12px}
   <div class="modules">
     <button class="module" data-go="control">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg>
-      <span class="role">Operador del grupo</span><strong>Control diario</strong><span class="d">Horómetro, energía, condición y fotos.</span>
+      <span class="role">Jefes de área</span><strong>Control diario</strong><span class="d">Horómetro, energía, condición y fotos.</span>
     </button>
     <button class="module" data-go="fuel">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/></svg>
@@ -311,20 +311,20 @@ details.block[open] summary{margin-bottom:12px}
     </button>
     <button class="module" data-go="inspection">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6v3H9zM7 4.5H5V21h14V4.5h-2M9 13.5l2 2 4-4"/></svg>
-      <span class="role">Inspector</span><strong>Inspección</strong><span class="d">Criterios de ahorro, hallazgos y acciones.</span>
+      <span class="role">Jefes de área</span><strong>Inspección</strong><span class="d">Criterios de ahorro, hallazgos y acciones.</span>
       <span class="badge" id="badgeOpen" hidden></span>
     </button>
     <button class="module" data-go="report">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 21h18M6 17v-5M11 17V7M16 17v-8M21 17V4"/></svg>
-      <span class="role">Supervisión</span><strong>Reportes</strong><span class="d">Indicadores por periodo y por grupo.</span>
+      <span class="role">Área Ambiental</span><strong>Reportes</strong><span class="d">Indicadores por periodo y por grupo.</span>
     </button>
   </div>
-  <div class="rules"><b>Cada rol registra lo suyo.</b> El operador registra horómetro y energía; el encargado de abastecimiento registra galones; el inspector registra hallazgos. El combustible nunca se ingresa desde el control diario.</div>
+  <div class="rules"><b>Cada área es responsable de la gestión y control de consumo de energía. Por lo que las jefaturas deberán asignar los responsables para la inspección de las diferentes áreas que utilizan, incluye turno día y noche.</b> El control de grupos electrógenos realizará el usuario de cada área; el encargado de abastecimiento registra el consumo de combustible; El combustible nunca se ingresa desde el control diario.</div>
 </section>
 
 <!-- ═════════ CONTROL DIARIO ═════════ -->
 <section class="view" id="control" hidden>
-  <div class="view-head"><h2>Control diario del grupo electrógeno</h2><p>Registra operación y lecturas del turno. El combustible va en su propio módulo.</p></div>
+  <div class="view-head"><h2>Control diario del grupo electrógeno</h2><p>Registra operación y lecturas del turno dia y noche.</p></div>
   <form id="formControl" novalidate data-fn="submitControl" data-photos="fotoAntes,fotoDespues" data-person="responsable">
     <fieldset><legend>Identificación</legend>
       <div class="grid">
